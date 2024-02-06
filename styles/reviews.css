@@ -1,7 +1,6 @@
 .review-section
 {
     background-color: #f4f7f5;
-    width: 100%;
 
     padding-top: 100px;
     padding-bottom: 200px;
@@ -38,4 +37,47 @@
 
     margin-right: 30px;
     margin-top: 40px;
+
+    border-radius: 30px;
+    color: #f4f7f5;
+}
+
+.review-subtext
+{
+    color: #3f7d20;
+}
+
+.review-title
+{
+    font-size: 40px;
+}
+
+.reviewer-images
+{
+    width: 50px;
+    border-radius: 50px;
+}
+
+.reviewer-bio
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.reviewer-titles
+{
+    padding-left: 30px;
+}
+
+.reviewer-name
+{
+    font-size: 13px;
+}
+
+.reviewer-title
+{
+    font-size: 12px;
 }

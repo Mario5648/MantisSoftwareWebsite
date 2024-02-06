@@ -6,12 +6,12 @@
     align-items: center;
     margin: auto;
     width: 1200px;
-
     padding: 30px;
     padding-top: 200px;
     padding-bottom: 200px;
 
     color: #f4f7f5;
+    
 }
 
 .benefits-box-container
@@ -33,7 +33,7 @@
     align-items: flex-start;
     margin: auto;
 
-    width: 400px;
+    width: 300px;
     padding-left: 50px;
     padding-right: 50px;
 

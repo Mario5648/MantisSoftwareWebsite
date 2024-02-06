@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="./styles/services.css">
         <link rel="stylesheet" href="./styles/benefits.css">
         <link rel="stylesheet" href="./styles/reviews.css">
+        <link rel="stylesheet" href="./styles/contact.css">
 
     </head>
     <body>
@@ -117,15 +118,17 @@
         <!-- Review Section -->
         <div class="review-section">
             <div class="review-section-width">
-                <p>REVIEWS</p>
-                <p>What our previous clients think</p>
+                <p class="review-subtext">REVIEWS</p>
+                <p class="review-title">What our previous clients think</p>
 
                 <div class="review-box-container">
                     <div class="review-box">
                         <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
                         <div class="reviewer-bio">
-                            <img></img>
+                            <img class="reviewer-images" src="./images/reviewer_hold.png"></img>
                             <div class="reviewer-titles">
+                                <p class="reviewer-name">Firstname Lastname</p>
+                                <p class="reviewer-title">Fake Title</p>
                             </div>
                         </div>
                     </div>
@@ -133,8 +136,10 @@
                     <div class="review-box">
                         <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
                         <div class="reviewer-bio">
-                            <img></img>
+                            <img class="reviewer-images" src="./images/reviewer_hold.png"></img>
                             <div class="reviewer-titles">
+                                <p class="reviewer-name">Firstname Lastname</p>
+                                <p class="reviewer-title">Fake Title</p>
                             </div>
                         </div>
                     </div>
@@ -142,12 +147,43 @@
                     <div class="review-box">
                         <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
                         <div class="reviewer-bio">
-                            <img></img>
+                            <img class="reviewer-images" src="./images/reviewer_hold.png"></img>
                             <div class="reviewer-titles">
+                                <p class="reviewer-name">Firstname Lastname</p>
+                                <p class="reviewer-title">Fake Title</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+
+        <!-- Contact Us -->
+        <div class="contact-section">
+            <div class="contact-info-section">
+                <p class="contact-title">Contact Us</p>
+                <p>Reach out to us if you have any questions or if you want a free quote on a solution</p>
+                <p><i class="fa fa-phone"></i> (832) 123-4567</p>
+                <p><i class="fa fa-envelope"></i> test@test.com</p>
+            </div>
+
+            <div class="form-section-container">
+                <form class="form-style">
+                    <label for="clientName">Name</label><br>
+                    <input class="contactField" type="text" id="clientName" name="clientName"></input><br>
+
+                    <label for="clientCompanyName">Company Name</label><br>
+                    <input class="contactField" type="text" id="clientCompanyName" name="clientCompanyName"></input><br>
+
+                    <label for="clientEmail">Email</label><br>
+                    <input class="contactField" type="text" id="clientEmail" name="clientEmail"></input><br>
+
+                    <label for="clientMessage">Message</label><br>
+                    <textarea id="clientMessage" name="clientMessage" rows="18" cols="50"></textarea><br><br><br>
+
+                    <button class="submit-button">Send Message</button>
+                </form>
             </div>
         </div>
     </body>
