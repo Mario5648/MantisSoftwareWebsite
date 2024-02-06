@@ -1,0 +1,41 @@
+.review-section
+{
+    background-color: #f4f7f5;
+    width: 100%;
+
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.review-section-width
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    width: 1200px;
+}
+
+.review-box-container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+
+}
+
+.review-box
+{
+    background-color: #0d0a0bff;
+
+    width: 400px;
+
+    padding: 50px;
+
+    margin-right: 30px;
+    margin-top: 40px;
+}

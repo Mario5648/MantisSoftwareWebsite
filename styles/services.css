@@ -1,23 +1,21 @@
 .services-section-container
 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: auto;
-
     background-color: #f4f7f5;
-
-    max-width: 1200px;
-
     width: 100%;
 
     padding: 30px;
-    
     padding-top: 200px;
     padding-bottom: 200px;
 }
 
-
+.services-section-width
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    width: 1200px;
+}
 
 .services-images-section
 {
