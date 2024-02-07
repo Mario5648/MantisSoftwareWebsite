@@ -68,13 +68,12 @@
     .footer-section
     {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         flex-direction: column;
         align-items: center;
-        flex-wrap: wrap;
         margin: auto;
-        width: 100%;
         padding-top: 200px;
+        flex-wrap: wrap;
 
         color: #f4f7f5;    
     }
@@ -82,12 +81,12 @@
     .footer-columns-section
     {
         display: flex;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
         margin: auto;
-        width: 100%;
+
+        flex-wrap: wrap;
 
         padding-bottom: 100px;
 
@@ -95,13 +94,13 @@
 
     .footer-image
     {
-        width: 100px;
+        width: 200px;
     }
 
     .footer-titles
     {
         font-size: 25px;
-        width: 300px;
+
     }
 
     .footer-option
