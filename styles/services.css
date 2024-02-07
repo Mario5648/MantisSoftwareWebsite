@@ -1,84 +1,174 @@
-.services-section-container
+@media only screen and (min-width: 1200px)
 {
-    background-color: #f4f7f5;
+    .services-section-container
+    {
+        background-color: #f4f7f5;
 
-    padding: 30px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+        padding: 30px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .services-section-width
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: auto;
+        width: 1200px;
+    }
+
+    .services-images-section
+    {
+        flex: 3;
+    }
+    .services-text-section
+    {
+        flex: 7;
+    }
+
+    .service-img-1
+    {
+        position: absolute;
+        margin-top: -10px;
+        margin-left: -20px;
+    }
+    .service-img-2
+    {
+        position: absolute;
+        margin-top: 230px;
+        margin-left: 20px;
+    }
+
+    .sub-text-services
+    {
+        color: #3f7d20;
+    }
+
+    .title-text-services
+    {
+        font-size: 40px;
+    }
+
+    .services-box-container
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    .services-box
+    {
+        width: 300px;
+        height: 200px;
+        background-color: #0d0a0bff;
+        padding: 40px;
+        color: #f4f7f5;
+
+        border-radius: 30px;
+
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+
+    .service-box-title
+    {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .services-box-description
+    {
+        font-size: 14px;
+    }
 }
 
-.services-section-width
+/* Anything smaller than a desktop */
+@media only screen and (max-width: 1200px)
 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: auto;
-    width: 1200px;
-}
+    .services-section-container
+    {
+        background-color: #f4f7f5;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    
+    .services-section-width
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        flex-wrap: wrap;
+        width:100%;
 
-.services-images-section
-{
-    flex: 3;
-}
-.services-text-section
-{
-    flex: 7;
-}
+    }
+    
+    .services-images-section
+    {
+        flex: 3;
+    }
+    .services-text-section
+    {
+        flex: 7;
+    }
 
-.service-img-1
-{
-    position: absolute;
-    margin-top: -10px;
-    margin-left: -20px;
-}
-.service-img-2
-{
-    position: absolute;
-    margin-top: 230px;
-    margin-left: 20px;
-}
-
-.sub-text-services
-{
-    color: #3f7d20;
-}
-
-.title-text-services
-{
-    font-size: 40px;
-}
-
-.services-box-container
-{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    margin: auto;
-    flex-wrap: wrap;
-}
-
-.services-box
-{
-    width: 300px;
-    height: 200px;
-    background-color: #0d0a0bff;
-    padding: 40px;
-    color: #f4f7f5;
-
-    border-radius: 30px;
-
-    margin-bottom: 20px;
-    margin-right: 20px;
-}
-
-.service-box-title
-{
-    font-size: 25px;
-    font-weight: 800;
-}
-
-.services-box-description
-{
-    font-size: 14px;
+    .service-img-1
+    {
+        width: 300px;
+        
+    }
+    .service-img-2
+    {
+        display: none;
+    }
+    
+    .sub-text-services
+    {
+        color: #3f7d20;
+    }
+    
+    .title-text-services
+    {
+        font-size: 25px;
+    }
+    
+    .services-box-container
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    
+    .services-box
+    {
+        width: 200px;
+        height: 250px;
+        background-color: #0d0a0bff;
+        padding: 40px;
+        color: #f4f7f5;
+    
+        border-radius: 30px;
+    
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    
+    .service-box-title
+    {
+        font-size: 25px;
+        font-weight: 800;
+    }
+    
+    .services-box-description
+    {
+        font-size: 14px;
+    }
 }
