@@ -109,7 +109,7 @@
 
     .benefit-header-text
     {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .benefit-icon
@@ -120,6 +120,7 @@
     .benefit-box-title
     {
         font-size: 20px;
+        font-weight: 800;
     }
 
     .benefit-box-description
