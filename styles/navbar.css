@@ -58,8 +58,7 @@ a
 
     .nav-bar-button
     {
-        width:150px;
-        height: 50px;
+
 
         border-radius: 20px;
         font-size: 20px;
@@ -67,6 +66,8 @@ a
         color: #f4f7f5;
         background-color: #72b01dff;
         border-style: none;
+
+        padding: 15px;
     }
 
     .hero-section-container
@@ -105,6 +106,12 @@ a
         background-color: #72b01dff;
         border-style: none;
         border-radius: 20px;
+
+        padding: 15px;
+
+        padding-left: 40px;
+        padding-right: 40px;
+
     }
 
     .benefits-text-section
@@ -191,6 +198,7 @@ a
         color: #f4f7f5;
         background-color: #72b01dff;
         border-style: none;
+        padding: 15px;
     }
 
     .hero-section-container
@@ -230,6 +238,12 @@ a
         background-color: #72b01dff;
         border-style: none;
         border-radius: 20px;
+
+        padding: 15px;
+
+        padding-left: 40px;
+        padding-right: 40px;
+
     }
 
     .benefits-text-section
