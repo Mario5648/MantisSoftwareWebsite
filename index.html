@@ -19,6 +19,8 @@
 
         <meta name="format-detection" content="telephone=no" />
 
+        <script src="./scripts/utils.js"></script>
+
     </head>
     <body>
 
@@ -38,8 +40,17 @@
             </div>
 
             <div class="nav-bar-options-mobile">
-                <i class="fa fa-reorder"></i>
+                <div class="topnav">
+                    <a href="javascript:void(0);" class="icon" onclick="mobileMenuFunction()">
+                        <i class="fa fa-reorder mobile-menu-bar-icon"></i>
+                    </a>
+                </div>
             </div>
+        </div>
+        <div id="mobile-menu-links" class="mobile-menu-links">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
         </div>
         <!-- Hero Section -->
         <div class="hero-section-container">
