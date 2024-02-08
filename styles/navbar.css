@@ -174,7 +174,6 @@ a
     .hero-image
     {
         width: 100%;
-
     }
 
     .nav-bar-options
@@ -217,6 +216,7 @@ a
         height: 800px;
 
         padding: 30px;
+        max-width: 1000;
 
     }
 
