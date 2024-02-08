@@ -173,7 +173,8 @@ a
 
     .hero-image
     {
-        width: 300px;
+        width: 100%;
+
     }
 
     .nav-bar-options
