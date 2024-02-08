@@ -25,6 +25,8 @@
     .form-section-container
     {
         padding-left: 30px;
+        width: 100%;
+
     }
 
     .contact-title
@@ -37,6 +39,12 @@
     {
         width: 100%;
         height: 30px;
+    }
+
+    .contactMessage
+    {
+        width: 100%;
+        height: 300px;
     }
 
     .form-style
@@ -75,10 +83,11 @@
     .contact-section
     {
         display: flex;
-        justify-content: flex-start;
-        flex-direction: row;
+        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
         margin: auto;
+
         padding: 30px;
         padding-top: 100px;
         padding-bottom: 200px;
@@ -91,12 +100,11 @@
 
     .contact-info-section
     {
-        padding-right: 100px;
     }
 
     .form-section-container
     {
-        padding-left: 30px;
+        width: 100%;
     }
 
     .contact-title
@@ -110,7 +118,11 @@
         width: 100%;
         height: 30px;
     }
-
+    .contactMessage
+    {
+        width: 100%;
+        height: 300px;
+    }
     .form-style
     {
         display: flex;
@@ -122,6 +134,8 @@
         flex-wrap: wrap;
 
         width: 100%;
+
+        padding-top:100px;
 
 
     }

@@ -85,12 +85,11 @@
     {
         display: flex;
         justify-content: center;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         flex-wrap: wrap;
         margin: auto;
 
-        padding-top: 120px;
     }
 
     .benefits-box
@@ -103,8 +102,8 @@
         margin: auto;
 
         width: 200px;
-        padding-left: 50px;
-        padding-right: 50px;
+
+        padding: 50px;
 
     }
 

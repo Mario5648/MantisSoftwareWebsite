@@ -106,6 +106,8 @@
         margin: auto;
 
         flex-wrap: wrap;
+
+        padding: 30px;
     }
 
     .review-box-container
