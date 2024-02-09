@@ -12,7 +12,7 @@ a
         margin: 0;
         padding: 0;
         background-color: #0d0a0bff;
-        font-family: Arial, sans-serif;
+        font-family: 'Quicksand', sans-serif;
     }
 
     .navigation-section-container
@@ -148,6 +148,7 @@ a
         padding: 0;
         background-color: #0d0a0bff;
         font-family: Arial, sans-serif;
+        font-family: 'Quicksand', sans-serif;
     }
 
     .navigation-section-container
@@ -163,6 +164,7 @@ a
         color: #f4f7f5;
 
         padding: 30px;
+        
 
     }
 

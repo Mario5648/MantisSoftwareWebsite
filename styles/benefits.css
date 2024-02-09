@@ -36,8 +36,15 @@
         margin: auto;
 
         width: 300px;
+        height: 300px;
         padding-left: 50px;
         padding-right: 50px;
+        
+        margin-right: 10px;
+
+        background-color: #f4f7f5;
+        color:#0d0a0bff;
+        border-radius: 30px;
 
     }
 
@@ -104,6 +111,12 @@
         width: 200px;
 
         padding: 50px;
+
+        margin-bottom: 10px;
+
+        background-color: #f4f7f5;
+        color:#0d0a0bff;
+        border-radius: 30px;
 
     }
 
