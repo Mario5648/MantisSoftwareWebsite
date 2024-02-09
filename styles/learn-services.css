@@ -5,7 +5,6 @@
         background-color: #f4f7f5;
 
         padding: 30px;
-        padding-top: 200px;
         padding-bottom: 200px;
     }
 
@@ -101,6 +100,9 @@
         padding: 30px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
 
+        margin-right: 20px;
+        margin-top: 20px
+
     }
 
     .examples-box-container
@@ -133,7 +135,6 @@
         background-color: #f4f7f5;
 
         padding: 30px;
-        padding-top: 200px;
         padding-bottom: 200px;
     }
 
@@ -227,6 +228,9 @@
 
         padding: 30px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+
+        margin-right: 20px;
+        margin-top: 20px
 
     }
 
