@@ -128,7 +128,7 @@
 /* Anything smaller than a desktop */
 @media only screen and (max-width: 1200px)
 {
-    .services-section-container
+    .learn-services-section-container
     {
         background-color: #f4f7f5;
 
@@ -137,7 +137,7 @@
         padding-bottom: 200px;
     }
 
-    .services-section-width
+    .learn-services-section-width
     {
         display: flex;
         justify-content: center;
@@ -148,20 +148,20 @@
 
     }
 
-    .services-images-section
+    .learn-services-images-section
     {
         flex: 3;
     }
-    .services-text-section
+    .learn-services-text-section
     {
         flex: 7;
     }
 
-    .service-img-1
+    .learn-service-img-1
     {
         display: none;
     }
-    .service-img-2
+    .learn-service-img-2
     {
         display: none;
 
@@ -177,7 +177,7 @@
         font-size: 30px;
     }
 
-    .services-box-container
+    .learn-services-box-container
     {
         display: flex;
         justify-content: center;
@@ -187,7 +187,7 @@
         flex-wrap: wrap;
     }
 
-    .services-box
+    .learn-services-box
     {
         width: 200px;
         height: 350px;
@@ -201,31 +201,53 @@
         margin-right: 20px;
     }
 
-    .service-box-title
+    .learn-service-box-title
     {
         font-size: 25px;
         font-weight: 800;
     }
 
-    .service-box-question
+    .stack-box-container
     {
-        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
     }
 
-    .services-box-description
+    .stack-box
     {
-        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        padding: 30px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+
     }
 
-    .learn-more-button
+    .examples-box-container
     {
-        font-size: 20px;
-        background-color: #0d0a0bff;
-        color: #72b01dff;
-        border-style: solid;
-        border-color: #72b01dff;
-        border-radius: 20px;
-        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .example-box
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        padding: 40px;
+        font-size: 25px;
     }
 }
