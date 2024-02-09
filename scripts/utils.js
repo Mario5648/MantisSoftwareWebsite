@@ -6,3 +6,9 @@ function mobileMenuFunction() {
         x.style.display = "block";
     }
 }
+
+
+function openPage(requestedPage)
+{
+    window.open(`${requestedPage}.html`, "_self")
+}
