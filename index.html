@@ -14,12 +14,15 @@
         <link rel="stylesheet" href="./styles/reviews.css">
         <link rel="stylesheet" href="./styles/contact.css">
         <link rel="stylesheet" href="./styles/footer.css">
+        <link rel="stylesheet" href="./styles/general.css">
+
 
         <link rel="icon" type="image/x-icon" href="./images/mantis_icon.ico">
 
         <meta name="format-detection" content="telephone=no" />
 
         <script src="./scripts/utils.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
     </head>
     <body>
@@ -73,7 +76,7 @@
 
 
         <!-- Services section -->
-        <div class="services-section-container" id="services">
+        <div class="tag services-section-container" id="services">
             <div class="services-section-width">
                 <!-- Image side -->
                 <div class="services-images-section">
@@ -113,7 +116,7 @@
         </div>
 
         <!-- Benefits section -->
-        <div class="benefits-container">
+        <div class="tag benefits-container">
             <div><p class="benefit-header-text">Why Mantis Software?</p></div>
             <!-- Benefits description -->
             <div class="benefits-box-container">
@@ -136,7 +139,7 @@
         </div>
 
         <!-- Review Section -->
-        <div class="review-section" id="reviews">
+        <div class="tag review-section" id="reviews">
             <div class="review-section-width">
                 <p class="review-subtext">REVIEWS</p>
                 <p class="review-title">What our previous clients think</p>
@@ -180,7 +183,7 @@
 
 
         <!-- Contact Us -->
-        <div class="contact-section" id="contact">
+        <div class="tag contact-section" id="contact">
             <div class="contact-info-section">
                 <p class="contact-title">Contact Us</p>
                 <p>Reach out to us if you have any questions or if you want a free quote on a solution</p>
@@ -239,4 +242,22 @@
             <p class="footer-bottom-text">2024 Mantis Software LLC, Houston TX</p>
         </div>
     </body>
+
+    <script>
+        $(document).on("scroll", function() {
+    var pageTop = $(document).scrollTop();
+    var pageBottom = pageTop + $(window).height();
+    var tags = $(".tag");
+  
+    for (var i = 0; i < tags.length; i++) {
+      var tag = tags[i];
+  
+      if ($(tag).position().top < pageBottom) {
+        $(tag).addClass("visible");
+      } else {
+        $(tag).removeClass("visible");
+      }
+    }
+  });
+    </script>
 </html>
