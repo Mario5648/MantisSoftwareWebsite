@@ -4,7 +4,7 @@
     {
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         margin: auto;
         width: 1200px;
@@ -13,6 +13,7 @@
         padding-bottom: 200px;
 
         color: #f4f7f5;
+
         
     }
 
@@ -22,9 +23,10 @@
         justify-content: center;
         flex-direction: row;
         align-items: center;
-        margin: auto;
+        flex-wrap: wrap;
 
         padding-top: 120px;
+        
     }
 
     .benefits-box
@@ -33,6 +35,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: flex-start;
+        
         margin: auto;
 
         width: 300px;
@@ -40,8 +43,7 @@
         padding-left: 50px;
         padding-right: 50px;
         
-        margin-right: 10px;
-
+        margin-top:20px;
         background-color: #f4f7f5;
         color:#0d0a0bff;
         border-radius: 30px;
@@ -67,6 +69,35 @@
     {
         font-size: 14px;
     }
+    .benefits-header-container
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;        
+    }
+
+    .benefits-left-container
+    {
+        flex: 6;
+    }
+    .benefits-right-container
+    {
+        flex: 7;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: -500px;
+    }
+
+    .benefits-image-style
+    {
+        width: 600px;
+    }
+
 }
 /* Anything smaller than a desktop */
 @media only screen and (max-width: 1200px)
@@ -139,5 +170,12 @@
     .benefit-box-description
     {
         font-size: 14px;
+    }
+
+
+
+    .benefits-image-style
+    {
+        display: none;
     }
 }
