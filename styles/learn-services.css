@@ -125,6 +125,13 @@
         padding: 40px;
         font-size: 25px;
     }
+
+    .process-image
+    {
+        max-width: 100%;
+        height: auto;
+    }
+
 }
 
 /* Anything smaller than a desktop */
@@ -253,5 +260,11 @@
 
         padding: 40px;
         font-size: 25px;
+    }
+
+    .process-image
+    {
+        max-width: 100%;
+        height: auto;
     }
 }
