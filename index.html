@@ -24,6 +24,9 @@
         <script src="./scripts/utils.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
+        <script src="./scripts/makeApiCall.js"></script>
+        <script src="./scripts/api_call.js"></script>
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
@@ -230,7 +233,7 @@
                     <label for="clientMessage">Message</label><br>
                     <textarea class="contactMessage" id="clientMessage" name="clientMessage"></textarea><br><br><br>
 
-                    <button class="submit-button">Send Message</button>
+                    <button class="submit-button" onclick="sendMessageOnClick()">Send Message</button>
                 </form>
             </div>
         </div>
