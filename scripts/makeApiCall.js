@@ -9,13 +9,14 @@ function sendMessage(callBack = null)
         "email" : document.getElementById("clientEmail").value,
         "message": document.getElementById("clientMessage").value
     };
-
+    
     endpointCall("sendMessage", params, function(data)
                                 {
                                     //Store id and name in cookies for later use
                                     if(data["status"] == "success")
                                     {
                                         callBack('Successfully sent message!');
+                                        location.reload();
                                     }else if(data["status"] == "failed")
                                     {
                                         callBack("Failed to send message. Please try again!");
