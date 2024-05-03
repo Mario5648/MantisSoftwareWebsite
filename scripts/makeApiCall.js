@@ -16,7 +16,6 @@ function sendMessage(callBack = null)
                                     if(data["status"] == "success")
                                     {
                                         callBack('Successfully sent message!');
-                                        location.reload();
                                     }else if(data["status"] == "failed")
                                     {
                                         callBack("Failed to send message. Please try again!");
@@ -26,8 +25,17 @@ function sendMessage(callBack = null)
 
 function sendMessageOnClick()
 {
+    document.getElementById("sendMessageButton").disabled = true;
     sendMessage( function(responseMessage)
         {
             alert(responseMessage);
+
+            if(responseMessage == "Successfully sent message!")
+            {
+                location.reload();
+            }else
+            {
+                document.getElementById("sendMessageButton").disabled = false;
+            }
         });
 }
