@@ -66,6 +66,7 @@ animation: fadeIn 3s;
 .stats {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 40px;
   margin-bottom: 40px;
 }
